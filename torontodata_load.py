@@ -3,6 +3,7 @@ from glob import glob
 import numpy as np
 import matplotlib.pyplot as plt
 
+#modify dataset_name with location to dataset and img_res with required size
 class DataLoader():
     def __init__(self, dataset_name, img_res=(128, 128)):
         self.dataset_name = dataset_name
